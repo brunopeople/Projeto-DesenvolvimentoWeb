@@ -6,4 +6,6 @@ DepartmentName varchar(500)
 select * from dbo.Department
 
 insert into dbo.Department values
-('IT')
+('PDO')
+
+select * from dbo.Department
