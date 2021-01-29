@@ -25,7 +25,7 @@ namespace WebApplication1.Controllers
                     ";
             DataTable table = new DataTable();
             using (var con = new SqlConnection(ConfigurationManager.
-                ConnectionStrings["EmployeeDB"].ConnectionString))
+                ConnectionStrings["EmployeeAppDB"].ConnectionString))
             using (var cmd = new SqlCommand(query, con))
             using (var da = new SqlDataAdapter(cmd))
             {
